@@ -8,6 +8,53 @@
 <body>
    <nav>
        <a href="index.html">Back to main page</a>
-   </nav> 
+   </nav>
+   <br>
+   <article>
+       <form>
+            <label><b>Name</b> 
+                <input type="text" name="Name" placeholder="Enter your Name" required></input>
+            </label>
+            <br>
+            <label><b>Email</b> 
+                <input type="text" name="Email" placeholder="Enter your Email" required></input>
+            </label>
+            <br>
+            <label><b>Comedy?</b>
+                <input type="checkbox" name="Comedy?" value="Yes">Yes:
+            </label>
+            <label>
+                <input type="checkbox" name="Comedy?" value="No">No:
+            </label>
+            <br>
+            <label><b>Fantasy?</b>
+                <input type="radio" name="Fantasy?" value="Yes">Yes:
+            </label>
+            <label>
+                <input type="radio" name="Fantasy?" value="No">No:
+            </label>
+            <br>
+            <label><b>Number of places</b>
+                <input type="number" name="Number of places">
+            </label>
+            <br>
+            <label><b>Reserve a day</b>
+                <input type="date" name="Reserve a day">
+            </label>
+            <br>
+            <label>
+                <input type="reset" value="Reset all">
+            </label>
+            <br>
+            <input type="Submit" value="Send">
+            <hr>
+            <p><b><i>Inserted form</i></b></p>
+                <form action="https://formspree.io/mvovpzjd" method="POST">
+                <input type="text" name="name" placeholder="Enter text">
+                <input type="email" name="_replyto" placeholder="Enter Email">
+                <input type="submit" value="Send">
+</form>
+       </form>
+   </article> 
 </body>
 </html>
